@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"./packets/neo6m"
+	"./pkg/neo6m"
 )
 
 var gps neo6m.GpsNeo = neo6m.GpsNeo{
