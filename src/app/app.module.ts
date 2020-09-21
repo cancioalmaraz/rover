@@ -8,6 +8,7 @@ import { GpsComponent } from './components/data/gps/gps.component';
 import { appRouting } from './app.routes';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { AnglesComponent } from './components/data/angles/angles.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     NavbarComponent,
     GpsComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    AnglesComponent
   ],
   imports: [
     BrowserModule,
